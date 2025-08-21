@@ -911,7 +911,7 @@ async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE):
     print("Exception:", getattr(context, "error", None))
 
 def main():
-    BOT_TOKEN = "YOUR_TOKEN_HERE"
+    BOT_TOKEN = "8088511976:AAFeI2M1r6q7d-ALe6TUNX2GFQsE0dS4mi0"
     if not BOT_TOKEN or BOT_TOKEN == "YOUR_TOKEN_HERE":
         print("Set BOT_TOKEN in the script before running.")
         return
