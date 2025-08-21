@@ -8,7 +8,7 @@ jobs:
   run-bot:
     runs-on: ubuntu-latest
     env:
-      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      BOT_TOKEN: ${{ 8088511976:AAFeI2M1r6q7d-ALe6TUNX2GFQsE0dS4mi0 }}
     steps:
       - uses: actions/checkout@v4
 
