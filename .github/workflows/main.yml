@@ -15,5 +15,9 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Show directory structure
+        run: |
+          pwd
+          ls -R
       - name: Run bot
-        run: python app.py
+        run: python app.py   # change path if app.py is in a folder
